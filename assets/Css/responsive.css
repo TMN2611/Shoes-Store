@@ -1,0 +1,66 @@
+@media screen and (max-width: 1024px) {
+  .form_newsletter input {
+    width: 200px;
+  }
+  .title_newsletter {
+    display: none;
+  }
+  .header__navigation-item {
+    padding: 0 5px;
+  }
+  .header__navigation-link {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .form_newsletter input {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 982px) and (min-width: 768px) {
+  .footer_main-item {
+    margin-top: 30px;
+  }
+  .main {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hiddenonMobile {
+    display: none;
+  }
+  .nav--level1__brand::before {
+    display: none;
+  }
+  .hotline__link,
+  .systemStore__link {
+    font-size: 1rem;
+  }
+  .header__icon {
+    justify-content: flex-end;
+  }
+  .header__navigation-link {
+    font-size: 1.2rem;
+  }
+  .area_newsletter {
+    justify-content: center;
+  }
+  .area_phone_contact {
+    justify-content: center;
+  }
+  .footer_main-item {
+    text-align: center;
+  }
+  .main__newArrival {
+    margin-top: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header__navigation-link {
+    font-size: 1rem;
+  }
+  .hotline__link,
+  .systemStore__link {
+    font-size: 0.9rem;
+  }
+}
