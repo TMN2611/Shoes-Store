@@ -12,12 +12,15 @@
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 982px) and (min-width: 768px) {
+@media screen and (max-width: 992px) and (min-width: 576px) {
   .footer_main-item {
     margin-top: 30px;
   }
   .main {
     margin-top: 100px;
+  }
+  .header__main {
+    margin-bottom: 100px;
   }
 }
 @media screen and (max-width: 1200px) and (min-width: 992px) {
@@ -67,10 +70,13 @@
   .main__newArrival {
     margin-top: 300px;
   }
-}
-@media screen and (max-width: 375px) {
   .header__navigation-link {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 375px) and (min-width: 0px) {
+  .header__navigation-link {
+    font-size: 0.8rem;
   }
   .hotline__link,
   .systemStore__link {
